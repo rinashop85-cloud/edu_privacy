@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kebijakan Privasi - EduAssist Pro</title>
+    <style>
+        :root {
+            --primary-color: #1976D2; /* Warna biru material design */
+            --text-main: #333333;
+            --text-muted: #666666;
+            --bg-body: #f4f7f6;
+            --bg-container: #ffffff;
+        }
+
+        body {
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-main);
+            background-color: var(--bg-body);
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--bg-container);
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        }
+
+        h1 {
+            color: var(--primary-color);
+            text-align: center;
+            font-size: 2em;
+            margin-bottom: 5px;
+        }
+
+        .effective-date {
+            text-align: center;
+            font-style: italic;
+            color: var(--text-muted);
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eeeeee;
+        }
+
+        h2 {
+            color: var(--primary-color);
+            font-size: 1.4em;
+            margin-top: 35px;
+            margin-bottom: 15px;
+            border-left: 4px solid var(--primary-color);
+            padding-left: 10px;
+        }
+
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        ul {
+            margin-bottom: 15px;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+            text-align: justify;
+        }
+
+        /* Styling khusus untuk sub-list (Izin Aplikasi) */
+        ul ul {
+            margin-top: 10px;
+            list-style-type: circle;
+        }
+
+        a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+            }
+            h1 {
+                font-size: 1.6em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Kebijakan Privasi - EduAssist Pro</h1>
+        <div class="effective-date">Tanggal Berlaku: 21 September 2026</div>
+
+        <p>Selamat datang di <strong>EduAssist Pro</strong>. Kami menghargai privasi Anda dan berkomitmen untuk melindungi data pribadi Anda serta data akademik yang Anda kelola melalui aplikasi kami. Kebijakan Privasi ini menjelaskan bagaimana kami mengumpulkan, menggunakan, menyimpan, dan melindungi informasi Anda saat Anda menggunakan aplikasi seluler EduAssist Pro.</p>
+        <p>Dengan menggunakan aplikasi EduAssist Pro, Anda menyetujui praktik yang dijelaskan dalam Kebijakan Privasi ini.</p>
+
+        <h2>1. Informasi yang Kami Kumpulkan</h2>
+        <p>EduAssist Pro dirancang sebagai alat manajemen akademik untuk pendidik dan sekolah. Kami mengumpulkan dan memproses jenis informasi berikut:</p>
+        <ul>
+            <li><strong>Informasi Akun dan Profil Pengguna:</strong> Saat Anda mendaftar atau dibuatkan akun oleh instansi sekolah, kami mengumpulkan informasi seperti Nama Lengkap, Nomor Induk Pegawai (NIP), Alamat Email, Peran (Admin, Guru, Kepala Sekolah, dll.), serta kata sandi.</li>
+            <li><strong>Data Institusi dan Akademik:</strong> Kami menyimpan data terkait operasional sekolah yang Anda masukkan, termasuk Nama Sekolah, NPSN, Identitas Kepala Sekolah, daftar kelas, dan daftar mata pelajaran.</li>
+            <li><strong>Data Siswa dan Penilaian:</strong> Aplikasi ini memfasilitasi Anda untuk menyimpan dan mengelola data siswa (Nama, NIS, Jenis Kelamin), catatan presensi harian, nilai akademik, rencana penilaian, jurnal mengajar, serta catatan bimbingan konseling (BK) dan kedisiplinan.</li>
+            <li><strong>Data Perangkat dan Logikal Aplikasi:</strong> Kami menyimpan pengaturan aplikasi (seperti status mode gelap/terang, pengaturan jadwal sinkronisasi, dan preferensi alarm) secara lokal di perangkat Anda.</li>
+        </ul>
+
+        <h2>2. Cara Kami Menggunakan Informasi</h2>
+        <p>Informasi yang dikumpulkan hanya digunakan untuk menyediakan, memelihara, dan meningkatkan fungsionalitas aplikasi, antara lain:</p>
+        <ul>
+            <li>Memberikan akses ke fitur manajemen kelas, jadwal mengajar, dan buku nilai.</li>
+            <li>Melakukan sinkronisasi data <em>(push/pull)</em> antara perangkat Anda dan database pusat untuk memastikan kelancaran kerja baik dalam kondisi online maupun offline.</li>
+            <li>Membangkitkan laporan otomatis seperti rekapitulasi nilai dan presensi, serta pencetakan jurnal mengajar dalam format PDF atau Excel.</li>
+            <li>Mengirimkan notifikasi dan alarm pengingat jadwal mengajar sesuai dengan preferensi yang Anda atur.</li>
+        </ul>
+
+        <h2>3. Izin Aplikasi (App Permissions)</h2>
+        <p>Agar dapat berfungsi maksimal dan memberikan pengalaman pengguna yang baik, EduAssist Pro memerlukan beberapa izin khusus pada perangkat Android Anda:</p>
+        <ul>
+            <li><strong>Izin Notifikasi (POST_NOTIFICATIONS):</strong> Digunakan semata-mata untuk menampilkan ringkasan jadwal harian dan pengingat kelas sebelum jam mengajar dimulai.</li>
+            <li><strong>Izin Alarm Tepat Waktu (SCHEDULE_EXACT_ALARM):</strong> Digunakan agar pengingat jadwal mengajar dapat berbunyi tepat waktu secara akurat sesuai dengan jam yang telah ditentukan oleh Master Jam sekolah Anda, meskipun aplikasi sedang tidak dibuka.</li>
+            <li><strong>Izin Akses Penyimpanan / File (READ/WRITE EXTERNAL STORAGE / MANAGE DOCUMENTS):</strong> EduAssist Pro memerlukan akses untuk membuat, membaca, dan menulis file pada direktori/folder yang Anda pilih secara spesifik. Izin ini digunakan hanya untuk keperluan:
+                <ul>
+                    <li>Membuat dan menyimpan dokumen laporan (PDF & Excel) hasil kerja Anda.</li>
+                    <li>Membuat file backup lokal berekstensi .json untuk keamanan data Anda.</li>
+                    <li>Membaca file backup tersebut jika Anda ingin memulihkan (restore) data ke dalam aplikasi.</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h2>4. Penyimpanan dan Keamanan Data</h2>
+        <p>Kami menerapkan sistem <strong>Offline-First</strong>. Sebagian besar data yang Anda akses dikelola dan disimpan (cache) secara lokal di dalam memori perangkat genggam Anda agar dapat diakses tanpa koneksi internet.</p>
+        <p>Saat Anda terhubung dengan internet dan melakukan sinkronisasi, data akan dikirimkan secara aman ke layanan basis data pihak ketiga (Cloud Database) yang kami gunakan, yaitu <strong>Supabase</strong>. Supabase menggunakan enkripsi standar industri untuk melindungi data selama transit maupun saat disimpan di server <em>(encryption at rest)</em>. Kami tidak bertanggung jawab atas kebocoran data yang disebabkan oleh kelalaian pengguna dalam menjaga kerahasiaan kata sandi/PIN akun.</p>
+
+        <h2>5. Berbagi Data dengan Pihak Ketiga</h2>
+        <p>Kami tidak akan pernah menjual, menyewakan, atau menukar data pribadi, data sekolah, maupun data siswa Anda kepada pihak ketiga untuk tujuan pemasaran atau komersial lainnya. Data Anda hanya berada di perangkat Anda dan di server database (Supabase) yang diperuntukkan eksklusif bagi ekosistem EduAssist Pro sekolah Anda.</p>
+
+        <h2>6. Hak Pengguna</h2>
+        <p>Anda memiliki kendali penuh atas data Anda melalui aplikasi:</p>
+        <ul>
+            <li>Anda (khususnya dengan peran Admin atau Superadmin) berhak untuk mengedit atau menghapus data sekolah, guru, dan siswa kapan saja.</li>
+            <li>Anda dapat mencabut izin aplikasi (Notifikasi atau Penyimpanan) kapan saja melalui Pengaturan Perangkat Android Anda, meskipun hal ini dapat menyebabkan beberapa fitur (seperti Ekspor Laporan dan Pengingat) tidak berfungsi.</li>
+        </ul>
+
+        <h2>7. Perubahan Kebijakan Privasi</h2>
+        <p>Kami dapat memperbarui Kebijakan Privasi ini dari waktu ke waktu. Jika kami melakukan perubahan material, kami akan memberitahukan pembaruan tersebut melalui aplikasi atau situs web kami. Kelanjutan penggunaan Anda atas EduAssist Pro setelah perubahan tersebut merupakan bentuk persetujuan Anda terhadap Kebijakan Privasi yang baru.</p>
+
+        <h2>8. Hubungi Kami</h2>
+        <p>Jika Anda memiliki pertanyaan, saran, atau kekhawatiran mengenai Kebijakan Privasi ini atau praktik pengelolaan data pada aplikasi EduAssist Pro, silakan hubungi kami di:</p>
+        <ul>
+            <li><strong>Email:</strong> <a href="mailto:mdprast@gmail.com">mdprast@gmail.com</a></li>
+            <li><strong>Situs Web:</strong> <a href="https://www.md-innovate.my.id" target="_blank" rel="noopener noreferrer">https://www.md-innovate.my.id</a></li>
+        </ul>
+    </div>
+
+</body>
+</html>
